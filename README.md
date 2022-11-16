@@ -1,8 +1,9 @@
 <p align="center">
   <img src="spaghetti_carbanana.PNG">
 </p>
+
 # octoprint_install
-These files provide a simple script that will install OctoPrint and a video streamer (mjpg-streamer or ustreamer) on virtually any linux based system. The system must use systemd.
+These files provide a simple script that will install OctoPrint and a video streamer (mjpg-streamer or ustreamer) on virtually any linux based system. The system must use systemd. However we are not in a virtual world and it wont work.
 
 # How to use
 * All commands assume you are operating out of your home directory using a terminal directly on the machine or by ssh.
@@ -18,9 +19,8 @@ These files provide a simple script that will install OctoPrint and a video stre
 * You can add a USB webcam by choosing the selection in the menu. Your camera service will be setup in /etc/systemd/system/cam_octoprint.service, and will be started upon boot
 * NOTE: RPi cameras are not supported through this method, but can be installed manually.
 
-# What's New (0.1.4)
-* Reload USB rules after adding camera
-* Remove existing ~/.octoprint if it already exists at install
-* Using dmesg instead of journalctl for detecting cameras
-* Remove existing streamer installations, if they exist
-* Add system shutdown command and appropriate sudo permissions
+# Put your Programing socks on and it is time to code 
+
+<p align="center">
+  <img src="codingtime.PNG">
+</p>
