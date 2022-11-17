@@ -82,6 +82,7 @@ prepare () {
         case $opt in
             "Ubuntu 18-22, Mint, Debian, Raspberry Pi OS")
             sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget nano
+            wait
                 INSTALL=2
                 break
             ;;
