@@ -20,10 +20,11 @@ These files provide a simple script that will install OctoPrint and a video stre
 Small installer script to setup a minimal kiosk with Chromium for banana pi. This installer isbased on : (http://willhaley.com/blog/debian-fullscreen-gui-kiosk/).
 
 ### how to use it
-* Login as root or with root permissions
 * Download this installer, make it executable and run it
 
-  `wget https://raw.githubusercontent.com/melROLL/SpaghettiCode_alla_CarBanana/main/kiosk-installer.sh; chmod +x kiosk-installer.sh; ./kiosk-installer.sh`
+  `wget https://raw.githubusercontent.com/melROLL/SpaghettiCode_alla_CarBanana/main/kiosk-installer.sh;
+  chmod +x kiosk-installer.sh;
+  sudo ./kiosk-installer.sh`
 
 
 # After Eatin the carbanana put your Programing socks on and it is Coding Time !!!
