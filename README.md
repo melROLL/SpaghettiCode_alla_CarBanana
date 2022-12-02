@@ -19,6 +19,16 @@ These files provide a simple script that will install OctoPrint and a video stre
 * You can add a USB webcam by choosing the selection in the menu. Your camera service will be setup in /etc/systemd/system/cam_octoprint.service, and will be started upon boot
 * NOTE: RPi cameras are not supported through this method, but can be installed manually.
 
+## Kiosk installer for banana pi
+Small installer script to setup a minimal kiosk with Chromium for banana pi. This installer isbased on : (http://willhaley.com/blog/debian-fullscreen-gui-kiosk/).
+
+### how to use it
+* Login as root or with root permissions
+* Download this installer, make it executable and run it
+
+  `wget https://raw.githubusercontent.com/josfaber/debian-kiosk-installer/master/kiosk-installer.sh; chmod +x kiosk-installer.sh; ./kiosk-installer.sh`
+
+
 # After Eatin the carbanana put your Programing socks on and it is Coding Time !!!
 
 <p align="center">
